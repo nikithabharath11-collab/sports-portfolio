@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virat Kohli | Sports Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="navbar">
+  <h2 class="logo">Virat Kohli 🏏</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#timeline">Career</a>
+    <a href="#stats">Stats</a>
+    <a href="#media">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Virat Kohli</h1>
+    <p>"The Run Machine" | International Cricket Icon</p>
+    <button class="cta" onclick="document.querySelector('#timeline').scrollIntoView({behavior:'smooth'})">
+      Explore His Journey ↓
+    </button>
+  </div>
+</section>
+
+<!-- SOCIAL ICONS -->
+<div class="social-bar">
+  <a href="https://www.facebook.com/virat.kohli?rdid=cKCDdwBpY51WFYnu&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1ZZL8PZWgB%2F#" target="_blank">
+    <img src="assets/icons/facebook.PNG" width="40">
+  </a>
+  <a href="https://www.instagram.com/virat.kohli/?igsh=MXRxY3BhenJ2MG5ycw%3D%3D#" target="_blank">
+    <img src="assets/icons/instagram.PNG" width="40">
+  </a>
+  <a href="https://www.youtube.com/watch?v=w-0H7G5XavM&list=PPSV" target="_blank">
+    <img src="assets/icons/youtube.PNG" width="40">
+  </a>
+</div>
+
+<!-- TIMELINE -->
+<section id="timeline">
+  <h2 class="section-title">Career Timeline</h2>
+  <div class="timeline-container">
+    <div class="event">2008 - 🇮🇳 International Debut</div>
+    <div class="event">2011 - 🏆 ICC Cricket World Cup Champion</div>
+    <div class="event">2014 - 🏏 Became Test Captain of India</div>
+    <div class="event">2020 - 👑 ICC Cricketer of the Decade Award</div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <h2 class="section-title">Achievements</h2>
+  <div class="stats-box">
+    <div class="stat"><span class="counter" data-target="25000">0</span><p>International Runs</p></div>
+    <div class="stat"><span class="counter" data-target="75">0</span><p>Centuries</p></div>
+    <div class="stat"><span class="counter" data-target="250000000">0</span><p>Followers</p></div>
+  </div>
+</section>
+
+<!-- NEW MEDIA SECTION (NO VIDEO ERROR) -->
+<section id="media">
+  <h2 class="section-title">Highlights & Legacy</h2>
+
+  <div class="quote-box">
+    <h3>"Self-belief and hard work always earn success." </h3>
+    <p>- Virat Kohli</p>
+  </div>
+
+  <!-- IMAGE SLIDER ANIMATION -->
+  <div class="slider">
+    <div class="slide-track">
+      <img src="assets/images/kohli-action1.JPG">
+      <img src="assets/images/kohli-action2.JPG">
+      <img src="assets/images/kohli-portrait.JPG">
+      <img src="assets/images/trophy-holding.JPG">
+      <img src="assets/images/kohli-action1.JPG">
+      <img src="assets/images/kohli-action2.JPG">
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="section-title">Fan Message</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <textarea placeholder="Write a message..." required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  Designed by <strong>B NIKITHA</strong> |
+  Roll No: <strong>25BCE2517</strong> |
+  Email: <strong>nikitha.b2025a@vitstudent.ac.in</strong>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
